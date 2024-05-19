@@ -1,0 +1,7 @@
+let str = 'Yankee, go home'
+if (str.endsWith('.','!')){
+console.log ("This sentence is finished")
+}
+else {
+console.log ("There is a missing dot or exclamation sign at the end of the sentence")
+}

@@ -1,0 +1,4 @@
+let str =  "I'm learning typescript!"
+console.log(str.substring(0, 3))
+console.log(str.slice(4, -11))
+console.log(str.slice(-11))

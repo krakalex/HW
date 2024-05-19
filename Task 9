@@ -1,0 +1,2 @@
+let date = new Date()
+console.log(`Current date: ${(date.getMonth())}/${(date.getFullYear()) }/${(date.getDate()) }. The current time is the ${(date.getHours())}:${(date.getMinutes())}:${(date.getSeconds())} `)
