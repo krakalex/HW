@@ -1,0 +1,7 @@
+let str = "I'm learning typescript!"
+if (str.includes('typescript')){
+console.log(str.indexOf("I'm learning typescript!"))
+}
+else {
+console.log('There is no given substring')
+}
