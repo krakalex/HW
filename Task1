@@ -1,3 +1,0 @@
-let fname = 'Lalo'
-let lname = 'Maniejo'
-console.log(`Hello, ${fname} ${lname}`)

@@ -1,7 +1,19 @@
-let str = 'Yankee, go home'
-if (str.endsWith('.','!')){
-console.log ("This sentence is finished")
+function getSum (a, b){
+let start, end
+if (a < b) {
+    start = a
+    end = b
+} else {
+    start = b
+    end = a
 }
-else {
-console.log ("There is a missing dot or exclamation sign at the end of the sentence")
+if (a === b) {
+    return a
 }
+let sum = 0
+for (let i = start; i<=end; i++){
+    sum += i;
+}
+return sum;
+}
+console.log(getSum(3, -2))
