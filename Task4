@@ -1,14 +1,17 @@
-function factorial(n) {
-if (n < 0) {
-return undefined
+let salaries = {
+    andrey: 500,
+    sveta: 413,
+    anton: 987,
+    alexandra: 199
+};
+
+let stotal = 0;
+let empno = 0;
+
+for (let employee in salaries) {
+    stotal += salaries[employee];
+    empno++;
 }
-if (n === 0){
-    return 1
-}
-let res = 1
-for (let i = 1; i<= n; i++) {
-    res *= i
-}
-return res
-}
-console.log(factorial(4))
+let averageSalary = stotal / empno;
+
+console.log(averageSalary);
