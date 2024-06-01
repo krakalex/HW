@@ -1,0 +1,9 @@
+const colors = {
+    'ru pum pu ru rum': {
+        red: 'red',
+        green: 'green',
+        blue: 'blue'
+    },
+};
+console.log(colors['ru pum pu ru rum'].red);
+console.log(colors['ru pum pu ru rum'].blue);

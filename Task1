@@ -1,0 +1,7 @@
+const Building = {
+ street: 'Kisialova',
+ number: 33, 
+ year: '1949', 
+ material: 'brick', 
+}
+console.log('street' in Building) 
